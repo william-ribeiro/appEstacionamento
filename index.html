@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estacionamento</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-dark">
+      <a class="navbar-brand text-light" href="#">Estacionamento</a>
+      <button type="button" class="btn btn-danger btn-sm" onclick="">
+        Sair
+      </button>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-5" style="border: 1px solid blue">
+          <div class="text-center col-md-12">
+            <h4>VAGAS</h4>
+          </div>
+
+          <div class="card-deck">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/a1.png"
+                alt="Card image cap"
+                id="a1"
+                onclick="closedForm(event)"
+              />
+              <img
+                class="card-img-top"
+                src="./assets/closedA1.png"
+                alt="Card image cap"
+                style="display: none"
+                id="closedA1"
+              />
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/a2.png"
+                alt="Card image cap"
+                id="a2"
+                onclick="closedForm(event)"
+              />
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/b1.png"
+                alt="Card image cap"
+                id="b1"
+                onclick="closedForm(event)"
+              />
+            </div>
+          </div>
+
+          <div class="card-deck">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/b2.png"
+                alt="Card image cap"
+                id="b2"
+                onclick="closedForm(event)"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/c1.png"
+                alt="Card image cap"
+                id="c1"
+                onclick="closedForm(event)"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/c2.png"
+                alt="Card image cap"
+                id="c2"
+                onclick="closedForm(event)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 offset-1">
+          <form id="">
+            <div class="form-row text-center">
+              <div class="form-group col-md-12">
+                <h4 id="titleVeiculo">
+                  Clique na vaga para registrar o veículo
+                </h4>
+              </div>
+            </div>
+            <fieldset id="closedForm" style="display: none">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputModelo">Modelo</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputModelo"
+                    placeholder="Gol"
+                  />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="inputCor">Cor</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputCor"
+                    placeholder="Azul"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputPlaca">Placa</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPlaca"
+                    placeholder="xxxxxxx"
+                  />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="inputAno">Ano</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAno"
+                    placeholder="aaaa"
+                  />
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-primary"
+                onclick="registrar()"
+              >
+                Registrar
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
