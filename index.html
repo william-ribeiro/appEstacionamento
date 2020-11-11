@@ -34,14 +34,14 @@
                 class="card-img-top"
                 src="./assets/a1.png"
                 alt="Card image cap"
-                id="a1"
+                id="A1"
               />
               <img
                 class="card-img-top"
                 src="./assets/closedA1.png"
                 alt="Card image cap"
                 style="display: none"
-                id="closed-a1"
+                id="closed-A1"
               />
             </div>
 
@@ -50,14 +50,14 @@
                 class="card-img-top"
                 src="./assets/a2.png"
                 alt="Card image cap"
-                id="a2"
+                id="A2"
               />
               <img
                 class="card-img-top"
                 src="./assets/closedA2.png"
                 alt="Card image cap"
                 style="display: none"
-                id="closed-a2"
+                id="closed-A2"
               />
             </div>
 
@@ -66,14 +66,14 @@
                 class="card-img-top"
                 src="./assets/b1.png"
                 alt="Card image cap"
-                id="b1"
+                id="B1"
               />
               <img
                 class="card-img-top"
                 src="./assets/closedB1.png"
                 alt="Card image cap"
                 style="display: none"
-                id="closed-b1"
+                id="closed-B1"
               />
             </div>
           </div>
@@ -84,14 +84,14 @@
                 class="card-img-top"
                 src="./assets/b2.png"
                 alt="Card image cap"
-                id="b2"
+                id="B2"
               />
               <img
                 class="card-img-top"
                 src="./assets/closedB2.png"
                 alt="Card image cap"
                 style="display: none"
-                id="closed-b2"
+                id="closed-B2"
               />
             </div>
 
@@ -100,14 +100,14 @@
                 class="card-img-top"
                 src="./assets/c1.png"
                 alt="Card image cap"
-                id="c1"
+                id="C1"
               />
               <img
                 class="card-img-top"
                 src="./assets/closedC1.png"
                 alt="Card image cap"
                 style="display: none"
-                id="closed-c1"
+                id="closed-C1"
               />
             </div>
             <div class="card">
@@ -115,14 +115,14 @@
                 class="card-img-top"
                 src="./assets/c2.png"
                 alt="Card image cap"
-                id="c2"
+                id="C2"
               />
               <img
                 class="card-img-top"
                 src="./assets/closedC2.png"
                 alt="Card image cap"
                 style="display: none"
-                id="closed-c2"
+                id="closed-C2"
               />
             </div>
           </div>
@@ -196,10 +196,18 @@
         <div class="col-2" style="padding: 5px; border-radius: 5px">
           <h4 class="text-center">Registro:</h4>
           <div id="insertCars"></div>
-          <div
-            class="rounded float-right vertical-align: bottom;"
-            style="border: orangered 1px solid"
-          >
+          <div class="form-group col-md-12">
+            <label class="text-center" for="inputTempoBox"
+              >Tempo de Permanência(horas)</label
+            >
+            <input
+              type="number"
+              class="form-control text-center"
+              id="inputTempoBox"
+              placeholder="ex: 1"
+            />
+          </div>
+          <div class="rounded float-right vertical-align: bottom;">
             <button
               type="button"
               class="btn btn-danger btn-sm"
@@ -212,7 +220,17 @@
       </div>
     </div>
 
-    <div class="container" style="margin-top: 5em">
+    <!-- AREA DE VEICULOS TOP3-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="text-center col-md-12">
+          <h4>VEÍCULOS TOP3</h4>
+          <h5 id="top3" class="text-center"></h5>
+        </div>
+      </div>
+    </div>
+    <!-- AREA DE BUSCA PERSONALIZADA-->
+    <div class="container" style="margin-top: 2em">
       <div class="row justify-content-center">
         <div class="col-5" style="margin: 10px">
           <h2 class="text-center">Busca personalizada</h2>
@@ -227,7 +245,7 @@
             <div class="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                class="form-control text-uppercase"
                 placeholder="Modelo"
                 aria-label="Modelo"
                 aria-describedby="button-addon2"
@@ -250,7 +268,7 @@
             <div class="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                class="form-control text-uppercase"
                 placeholder="Cor"
                 aria-label="Cor"
                 aria-describedby="button-addon2"
@@ -272,7 +290,7 @@
             <div class="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                class="form-control text-uppercase"
                 placeholder="Placa"
                 aria-label="Placa"
                 aria-describedby="button-addon2"
@@ -295,7 +313,7 @@
             <div class="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                class="form-control text-uppercase"
                 placeholder="Vaga"
                 aria-label="Vaga"
                 aria-describedby="button-addon2"
@@ -317,7 +335,7 @@
       </div>
       <div></div>
     </div>
-
+    <!-- AREA DE SCRIPT-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
