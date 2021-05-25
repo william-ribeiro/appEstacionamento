@@ -1,6 +1,6 @@
 # Growdev
 
-![HTML](https://img.shields.io/badge/HTML-orange) ![CSS](https://img.shields.io/badge/CSS-blue) ![BOOT](https://img.shields.io/badge/BOOTSTRAP-purple) ![JS](https://img.shields.io/badge/JAVASCRIPT-yellow) [![The MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=flat-square)](http://github.com/stilljag/appEstacionamento/blob/master/LICENSE.md)
+![HTML](https://img.shields.io/badge/HTML-orange) ![CSS](https://img.shields.io/badge/CSS-blue) ![BOOT](https://img.shields.io/badge/BOOTSTRAP-purple) ![JS](https://img.shields.io/badge/JAVASCRIPT-yellow) [![The MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=flat-square)](http://github.com/william-ribeiro/appEstacionamento/blob/master/LICENSE.md)
 
 ## Estacioanmento
 
@@ -20,7 +20,7 @@ Esta é uma aplicação proposta no desafio do Programa Starter Da [Growdev][gro
 
 ## Desenvolvimento
 
-![VERSION](https://img.shields.io/badge/VERSION.1.0-blue) ![GitHub language count](https://img.shields.io/github/languages/count/stilljag/appEstacionamento?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/stilljag/appEstacionamento?style=flat-square)
+![VERSION](https://img.shields.io/badge/VERSION.1.0-blue) ![GitHub language count](https://img.shields.io/github/languages/count/william-ribeiro/appEstacionamento?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/william-ribeiro/appEstacionamento?style=flat-square)
 
 ##### 📘 Aplicação em desenvolvimento
 
@@ -28,7 +28,7 @@ Esta é uma aplicação proposta no desafio do Programa Starter Da [Growdev][gro
 
 ## Contribuição
 
-1. Faça o _fork_ do projeto (<https://github.com/stilljag/appEstacionamento/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/william-ribeiro/appEstacionamento/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
